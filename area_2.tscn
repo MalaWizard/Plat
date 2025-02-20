@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://dedau3u1lkhpc"]
+[gd_scene load_steps=6 format=4 uid="uid://dedau3u1lkhpc"]
 
 [ext_resource type="Texture2D" uid="uid://crgeoeqggncjr" path="res://brackeys_platformer_assets/sprites/world_tileset.png" id="1_oqm5g"]
 [ext_resource type="Texture2D" uid="uid://bimgnirgtxrqd" path="res://brackeys_platformer_assets/small_metal_spike_02.png" id="2_qq7dv"]
+[ext_resource type="PackedScene" uid="uid://b44bdr1lnyqvm" path="res://slime.tscn" id="3_cq27n"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2ihcg"]
 texture = ExtResource("1_oqm5g")
@@ -158,3 +159,10 @@ texture = ExtResource("2_qq7dv")
 position = Vector2(1202, 140)
 scale = Vector2(0.551283, 0.431818)
 texture = ExtResource("2_qq7dv")
+
+[node name="Slime" parent="." instance=ExtResource("3_cq27n")]
+position = Vector2(702, 107)
+
+[node name="Slime2" parent="." instance=ExtResource("3_cq27n")]
+position = Vector2(852, 93)
+collision_layer = 2
