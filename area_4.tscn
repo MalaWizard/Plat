@@ -19,6 +19,6 @@ scale = Vector2(0.833333, 0.954545)
 texture = ExtResource("2_cawew")
 
 [node name="SmallMetalSpike03" type="Sprite2D" parent="."]
-position = Vector2(742, 54.25)
+position = Vector2(736, 55)
 scale = Vector2(0.884615, 0.810606)
 texture = ExtResource("2_cawew")
